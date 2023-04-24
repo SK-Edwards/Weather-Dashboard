@@ -1,21 +1,23 @@
-var APIKey = d02d8e895a3cd1e28bb8edcd5100fe8b;
-var city = "";
-var citySearchBtn = document.querySelector(".citySearchBtn")
-var citySearchInput = document.querySelector(".citySearchInput")
-var previousSearches = document.querySelector(".previousSearches")
+var apiKey = 'b5b75a8f63cdacf8b0e3ede86eab14d8';
+var city = " ";
+var citySearchBtn = document.querySelector(".citySearchBtn");
+var citySearchInput = document.querySelector(".citySearchInput");
+var previousSearches = document.querySelector(".previousSearches");
+ 
+var requestUrl = "http://api.weatherstack.com/current?access_key=" + apiKey + "&query=" + citySearchInput.value.trim();
+    
+function cityForcastCall(){
+    fetch(requestUrl)
+      .then(function (response) {
+        return response.json();
 
-citySearchBtn.addEventListener('click', function(event) {
-    event.preventDefault();
-    if (citySearchInput.value == "") {
-        return;
+         })
+     
+      .then(function (data) {
+        console.log(data);
+        console.log(citySearchInput.value.trim());
+        });
+    
     }
-console.log(citySearchInput);
-    city = citySearchInput.value;
-    var newPreviousSearches = document.createElement("button");
-    newPreviousSearches.textContent = city.toUpperCase();
-    newPreviousSearches.classList.add("btn");
-    newPreviousSearches.classList.add("btn-primary");
-    previousSearches.appendChild(newSearchHistory);
+  
 
-
-});
