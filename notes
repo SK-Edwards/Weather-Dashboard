@@ -1,0 +1,7 @@
+iconURL = "https://openweathermap.org/img/w/" + icon + ".png";
+
+
+queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey + "&units=imperial";
+
+
+forecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=" + data.coord.lat + "&lon=" + data.coord.lon + "&appid=" + APIKey + "&units=imperial";
