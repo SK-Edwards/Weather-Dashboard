@@ -7,7 +7,7 @@
 
 # Description
 
-This was an assignment from my coding bootcamp, which.
+This was an assignment from my coding bootcamp, 
 
 The requirements:
 
