@@ -7,7 +7,7 @@
 
 # Description
 
-This was an assignment from my coding bootcamp, 
+This was an assignment from my coding bootcamp, design a weather dashboard using a 3rd party API
 
 The requirements:
 
