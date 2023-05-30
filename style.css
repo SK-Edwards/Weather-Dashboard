@@ -51,9 +51,11 @@
     grid-column: span 2;
    }
 
-   .card{
-    background-color: black;
+   .card{ 
     color: whitesmoke;
+    background-color: #171616;
+    border-color: 5px whitesmoke;
+    border-radius: 10px;
    }
    .day1{
     grid-column: span 2;
