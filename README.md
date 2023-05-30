@@ -11,7 +11,7 @@ This was an assignment from my coding bootcamp, which.
 
 The requirements:
 
-![*:]()
+![*:](https://github.com/SK-Edwards/Weather-Dashboard/blob/main/images/Screenshot%202023-05-29%20225829.png?raw=true)
 
 
 # Usage
